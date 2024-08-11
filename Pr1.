@@ -1,0 +1,36 @@
+#include<stdio.h>
+Int main ()
+{
+Int num ;
+Int i=0;
+Int a[10];
+Int found = 0 ;
+
+Printf(“enter the element in the array “);
+For (i=0;i<10;i++){
+
+Scanf(“%d/n”,&a[i] );}
+
+Printf(“enter the element you find in the array “);
+Scanf(“%d”,&num);
+
+For (i=0;i<10;i++){
+
+If(a[i]== num )
+{
+
+    Printf(“the number is found at index at %d”,i);
+
+    Found=1;}
+
+}
+
+If (found==0){
+
+    Printf(“The number is not present in the array “);
+
+}
+
+
+
+}
